@@ -1,0 +1,19 @@
+# Compiled Object files and Executables
+*.o
+wordle_game
+
+# Libraries and Submodules
+rpi-rgb-led-matrix/
+
+# Python Virtual Environment and Cache
+python/venv/
+__pycache__/
+*.pyc
+
+# Data Files (Word lists and Stats)
+# Note: If you want to commit the word lists but ignore stats, remove 'python/*.txt'
+python/*.txt
+stats.txt
+
+# Generated Font Files
+*.bdf
