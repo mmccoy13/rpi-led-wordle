@@ -435,7 +435,7 @@ int main(int argc, char *argv[]) {
     if (!logoFont.LoadFont("fonts/Karnak.bdf")) return 1;
     if (!victoryFont.LoadFont("fonts/victory.bdf")) return 1;
     if (!defeatFont.LoadFont("fonts/defeat.bdf")) return 1;
-    if (!keyboardFont.LoadFont("fonts/3x3pixel.bdf")) return 1; 
+    if (!keyboardFont.LoadFont("fonts/3x3.bdf")) return 1; 
     
     game.loadFiles();
     std::thread iThread(inputThreadFunc);

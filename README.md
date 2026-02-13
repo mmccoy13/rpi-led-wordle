@@ -14,7 +14,7 @@ A C++ implementation that runs the popular game Wordle on an LED matrix panel. T
 *   **128x64 HUB75E LED Matrix Panel**
 *   **Adafruit RGB Matrix HAT or Bonnet** (for connecting the LED panel to the Pi)
 *   **5V Power Supply** (sufficient amperage for your LED panel - typically 4A or higher)
-*   **Keyboard** (USB keyboard for Pi Zero W 2)
+*   **Keyboard** (USB or Bluetooth keyboard for Pi Zero W 2)
 
 ## Installation
 
@@ -49,7 +49,7 @@ A C++ implementation that runs the popular game Wordle on an LED matrix panel. T
     - Fetch today's Wordle data
     - Compile the game
     - Schedule automatic updates and game start time
-
+    
 4.  **Follow the prompts** to set your preferred game start time.
 
 ## Controls
